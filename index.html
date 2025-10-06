@@ -33,7 +33,7 @@
         <div class="nav-container">
             <!-- Logo -->
             <div class="nav-logo">
-                <span class="logo-text">Tu Nombre</span>
+                <span class="logo-text">Bienvenido</span>
             </div>
 
             <!-- Desktop Menu -->
@@ -55,12 +55,9 @@
                 </li>
             </ul>
 
-            <!-- Mobile Menu Toggle -->
-            <div class="nav-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+            <button class="dark-mode-toggle" id="darkModeToggle" onclick="toggleDarkMode()">
+                <i class="fas fa-moon" id="darkModeIcon"></i>
+            </button>
         </div>
     </nav>
 
@@ -82,7 +79,7 @@
                 <h1 class="hero-title">
                     <span class="gradient-text">Hola, soy</span>
                     <br>
-                    <span class="name-text">Tu Nombre</span>
+                    <span class="name-text">Matias Peralta</span>
                 </h1>
 
                 <p class="hero-description">
@@ -102,27 +99,24 @@
 
                 <!-- Social Links -->
                 <div class="social-links">
-                    <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <a href="https://github.com/PeraltaMatias" target="_blank" rel="noopener noreferrer" class="social-link">
                         <i class="fab fa-github"></i>
                         <span>GitHub</span>
                     </a>
-                    <a href="https://linkedin.com/in/tu-perfil" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <a href="https://www.linkedin.com/in/matias-peralta-8a07ab264cc" target="_blank" rel="noopener noreferrer" class="social-link">
                         <i class="fab fa-linkedin"></i>
                         <span>LinkedIn</span>
                     </a>
-                    <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-link">
-                        <i class="fab fa-twitter"></i>
-                        <span>Twitter</span>
-                    </a>
-                    <a href="mailto:tu-email@gmail.com" class="social-link">
+
+                    <a href="mailto:matias.gabriel12p@gmail.com" class="social-link">
                         <i class="fas fa-envelope"></i>
                         <span>Email</span>
                     </a>
-                    <a href="https://instagram.com/tu-usuario" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <a href="https://instagram.com/matias_gabriel61" target="_blank" rel="noopener noreferrer" class="social-link">
                         <i class="fab fa-instagram"></i>
                         <span>Instagram</span>
                     </a>
-                    <a href="https://discord.com/users/tu-id" target="_blank" rel="noopener noreferrer" class="social-link">
+                    <a href="https://discord.com/users/mpreyyy" target="_blank" rel="noopener noreferrer" class="social-link">
                         <i class="fab fa-discord"></i>
                         <span>Discord</span>
                     </a>
@@ -143,17 +137,14 @@
                     <div class="card glass-card">
                         <div class="card-content">
                             <p>
-                                Con más de <span class="highlight">5 años de experiencia</span> en desarrollo de software, 
+                                Con más de <span class="highlight">1 año de experiencia</span> en desarrollo de software, 
                                 me especializo en crear aplicaciones web modernas y escalables usando las últimas tecnologías.
                             </p>
                             <p>
                                 Mi pasión por la tecnología me impulsa a mantenerme actualizado con las tendencias del desarrollo, 
                                 desde frameworks frontend hasta arquitecturas en la nube.
                             </p>
-                            <p>
-                                Cuando no estoy programando, me gusta contribuir a proyectos open source, 
-                                escribir en mi blog técnico y explorar nuevas tecnologías emergentes.
-                            </p>
+                          
                         </div>
                     </div>
                 </div>
@@ -164,8 +155,8 @@
                             <i class="fas fa-graduation-cap"></i>
                         </div>
                         <div class="card-info">
-                            <h3>Educación</h3>
-                            <p>Ingeniería en Sistemas / Ciencias de la Computación</p>
+                            <h3>Estudiante de Licenciatura en Informatica-En curso</h3>
+                            <p>licenciado en informatica / Ciencias de la Computación / tecnico programador titulo intermedio</p>
                         </div>
                     </div>
 
@@ -175,7 +166,7 @@
                         </div>
                         <div class="card-info">
                             <h3>Experiencia</h3>
-                            <p>5+ años en desarrollo Full Stack</p>
+                            <p>1 año en desarrollo Full Stack, webs, games, software de gestion</p>
                         </div>
                     </div>
 
@@ -185,7 +176,7 @@
                         </div>
                         <div class="card-info">
                             <h3>Ubicación</h3>
-                            <p>Tu Ciudad, País | Trabajo Remoto</p>
+                            <p>Buenos Aires, Argentina | disponible para trabajo remoto y presencial fulltime</p>
                         </div>
                     </div>
                 </div>
@@ -231,20 +222,12 @@
                     </div>
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-info">
-                        <h3>Node.js</h3>
-                        <span class="skill-percentage">88%</span>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" data-width="88%" style="background: linear-gradient(90deg, #4ade80, #22c55e);"></div>
-                    </div>
-                </div>
+              
 
                 <div class="skill-card">
                     <div class="skill-info">
                         <h3>Python</h3>
-                        <span class="skill-percentage">85%</span>
+                        <span class="skill-percentage">90%</span>
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="85%" style="background: linear-gradient(90deg, #34d399, #10b981);"></div>
@@ -254,7 +237,7 @@
                 <div class="skill-card">
                     <div class="skill-info">
                         <h3>SQL</h3>
-                        <span class="skill-percentage">80%</span>
+                        <span class="skill-percentage">70%</span>
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="80%" style="background: linear-gradient(90deg, #a78bfa, #8b5cf6);"></div>
@@ -263,8 +246,8 @@
 
                 <div class="skill-card">
                     <div class="skill-info">
-                        <h3>Docker</h3>
-                        <span class="skill-percentage">78%</span>
+                        <h3>HTML5</h3>
+                        <span class="skill-percentage">98%</span>
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="78%" style="background: linear-gradient(90deg, #3b82f6, #1d4ed8);"></div>
@@ -273,8 +256,8 @@
 
                 <div class="skill-card">
                     <div class="skill-info">
-                        <h3>AWS</h3>
-                        <span class="skill-percentage">75%</span>
+                        <h3>CSS</h3>
+                        <span class="skill-percentage">85%</span>
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" data-width="75%" style="background: linear-gradient(90deg, #fb923c, #f97316);"></div>
@@ -288,12 +271,7 @@
                 <div class="tech-tags">
                     <span class="tech-tag">Git</span>
                     <span class="tech-tag">Linux</span>
-                    <span class="tech-tag">MongoDB</span>
                     <span class="tech-tag">Redis</span>
-                    <span class="tech-tag">GraphQL</span>
-                    <span class="tech-tag">Kubernetes</span>
-                    <span class="tech-tag">Jenkins</span>
-                    <span class="tech-tag">TensorFlow</span>
                     <span class="tech-tag">Vue.js</span>
                     <span class="tech-tag">Angular</span>
                     <span class="tech-tag">PHP</span>
@@ -338,24 +316,24 @@
 
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="https://placeholder-image-service.onrender.com/image/400x250?prompt=Clean task management application interface with kanban board and productivity tools&id=3394f34b-1428-4fed-ac94-3002087bfbf5&customer_id=cus_T93xt4Gajadghb" 
-                             alt="Interfaz limpia de aplicación de gestión de tareas con tablero kanban">
+                        <img src="https://www.shutterstock.com/image-vector/scales-isolated-monochrome-icon-vector-600nw-1935405280.jpg" 
+                             alt="law firm website template">
                         <div class="project-overlay">
                             <div class="project-buttons">
-                                <a href="#" class="btn btn-small btn-primary">Ver Demo</a>
+                                <a href="https://peraltamatias.github.io/EstudioJuridicoPremiumPlantilla.github.io/" class="btn btn-small btn-primary">Ver Demo</a>
                                 <a href="#" class="btn btn-small btn-outline">GitHub</a>
                             </div>
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Task Management App</h3>
+                        <h3 class="project-title">law firm website template</h3>
                         <p class="project-description">
-                            Aplicación de gestión de tareas con autenticación y tiempo real
+                            Pagina web totalmente responsive sobre un estudio juridico - (La informacion fue generada al azar se configura a gusto del cliente)
                         </p>
                         <div class="project-tech">
-                            <span class="tech-badge">Vue.js</span>
-                            <span class="tech-badge">Firebase</span>
-                            <span class="tech-badge">Tailwind</span>
+                            <span class="tech-badge">CSS</span>
+                            <span class="tech-badge">HTML</span>
+                            <span class="tech-badge">JS</span>
                         </div>
                     </div>
                 </div>
@@ -419,17 +397,16 @@
                             </div>
                             <div class="method-info">
                                 <h4>Email</h4>
-                                <a href="mailto:tu-email@gmail.com">tu-email@gmail.com</a>
+                                <a href="mailto:tu-email@gmail.com">matias.gabriel12p@gmail.com</a>
                             </div>
                         </div>
-
                         <div class="contact-method phone-method">
                             <div class="method-icon">
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="method-info">
                                 <h4>Teléfono</h4>
-                                <a href="tel:+1234567890">+1 (234) 567-8900</a>
+                                <a href="tel:+1234567890">+54 1134598380</a>
                             </div>
                         </div>
 
@@ -439,7 +416,7 @@
                             </div>
                             <div class="method-info">
                                 <h4>Ubicación</h4>
-                                <span>Tu Ciudad, País</span>
+                                <span>Buenos Aires, Argentina</span>
                             </div>
                         </div>
                     </div>
@@ -502,12 +479,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>© 2025 Tu Nombre. Diseñado y desarrollado con ❤️ usando HTML, CSS y JavaScript.</p>
+                <p>© 2025 Matias Peralta desarrolado con mucho ❤️ usando HTML, CSS y JavaScript.</p>
                 <div class="footer-links">
                     <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
                     <a href="https://linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>
                     <a href="https://twitter.com/tu-usuario" target="_blank">Twitter</a>
-                    <a href="mailto:tu-email@gmail.com">Email</a>
+                    <a href="mailto:matias.gabriel12p@gmail.com">Email</a>
                 </div>
             </div>
         </div>
